@@ -1,0 +1,6 @@
+{
+  "name": "Example Fixture",
+  "email": "test@example.com",
+  "body": "This is example test data that can be loaded in tests"
+}
+

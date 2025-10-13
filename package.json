@@ -1,0 +1,30 @@
+{
+  "name": "ui-playwright",
+  "version": "1.0.0",
+  "description": "Playwright testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chrome": "playwright test --project=chromium",
+    
+    "test:all-browsers": "playwright test --project=chromium",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright test && npm run show:report",
+    "show:report": "playwright show-report",
+    "codegen": "playwright codegen",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
+
